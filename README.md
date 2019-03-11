@@ -9,7 +9,7 @@ Windows batch files: .bat vs .cmd?
 
 Here is a list of `cmd.exe` features that are not supported by `command.com`:
 
-*Long filenames (exceeding the 8.3 format)
+* Long filenames (exceeding the 8.3 format)
 *Command history
 *Tab completion
 *Escape character: `^` (Use for: `\ & | > < ^`)
