@@ -24,7 +24,7 @@ If both `.bat` and `.cmd` versions of a script (`test.bat`, `test.cmd`) are in t
 
 References:
 
-[cmd.exe] (http://www.ss64.com/ntsyntax/)
-[command.com] (http://gregvogl.net/courses/os/handouts/doscmdref.pdf)
-wikipedia: [Comparison of command shells] (https://en.wikipedia.org/wiki/Comparison_of_command_shells)
-stackoverflow: [Windows Batch Files bat vs cmd] (https://stackoverflow.com/questions/148968/windows-batch-files-bat-vs-cmd)
+[cmd.exe](http://www.ss64.com/ntsyntax/)
+[command.com](http://gregvogl.net/courses/os/handouts/doscmdref.pdf)
+wikipedia: [Comparison of command shells](https://en.wikipedia.org/wiki/Comparison_of_command_shells)
+stackoverflow: [Windows Batch Files bat vs cmd](https://stackoverflow.com/questions/148968/windows-batch-files-bat-vs-cmd)
