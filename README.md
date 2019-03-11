@@ -36,4 +36,8 @@ Samples:
 [WIKI Batch-Programmierung](https://de.wikibooks.org/wiki/Batch-Programmierung:_Beispiele)<br>
 [Batch Befehle Windows](https://www.script-example.com/themen/cmd_Batch_Befehle.php)
 
+SANS-SEC505
+------------
+The SEC505-Scripts.zip file contains some of the lab files for my SANS Institute course [SEC505: Securing Windows and PowerShell Automation](https://sans.org/sec505).<br>
+[SANS_SEC505-master](https://github.com/EnclaveConsulting/SANS-SEC505)
 
