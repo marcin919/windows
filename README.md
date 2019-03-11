@@ -41,3 +41,6 @@ SANS-SEC505
 The SEC505-Scripts.zip file contains some of the lab files for my SANS Institute course [SEC505: Securing Windows and PowerShell Automation](https://sans.org/sec505).<br>
 [SANS_SEC505-master](https://github.com/EnclaveConsulting/SANS-SEC505)
 
+Tools:
+------
+[random IP](https://www.browserling.com/tools/random-ip)
