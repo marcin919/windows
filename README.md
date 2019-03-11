@@ -30,3 +30,9 @@ References:
 wikipedia: [Comparison of command shells](https://en.wikipedia.org/wiki/Comparison_of_command_shells)<br>
 stackoverflow: [Windows Batch Files bat vs cmd](https://stackoverflow.com/questions/148968/windows-batch-files-bat-vs-cmd)<br>
 
+Samples:
+------
+
+[WIKI Batch-Programmierung](https://de.wikibooks.org/wiki/Batch-Programmierung:_Beispiele)
+
+
