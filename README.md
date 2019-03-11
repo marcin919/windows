@@ -10,15 +10,15 @@ Windows batch files: .bat vs .cmd?
 Here is a list of `cmd.exe` features that are not supported by `command.com`:
 
 * Long filenames (exceeding the 8.3 format)
-*Command history
-*Tab completion
-*Escape character: `^` (Use for: `\ & | > < ^`)
-*Directory stack: `PUSHD/POPD`
-*Integer arithmetic: `SET /A i+=1`
-*Search/Replace/Substring: `SET %varname:expression%`
-*Command substitution: `FOR /F` (existed before, has been enhanced)
-*Functions: `CALL :label`
-*Order of Execution:
+* Command history
+* Tab completion
+* Escape character: `^` (Use for: `\ & | > < ^`)
+* Directory stack: `PUSHD/POPD`
+* Integer arithmetic: `SET /A i+=1`
+* Search/Replace/Substring: `SET %varname:expression%`
+* Command substitution: `FOR /F` (existed before, has been enhanced)
+* Functions: `CALL :label`
+* Order of Execution:
 
 If both `.bat` and `.cmd` versions of a script (`test.bat`, `test.cmd`) are in the same folder and you run the script without the extension (test), by default the `.bat` version of the script will run, even on 64-bit Windows 7. The order of execution is controlled by the PATHEXT environment variable. See Order in which [Command Prompt executes files](https://stackoverflow.com/questions/605101/order-in-which-command-prompt-executes-files-with-the-same-name-a-bat-vs-a-cmd-v) for more details.
 
