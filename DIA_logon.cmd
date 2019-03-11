@@ -3,7 +3,7 @@
 @echo =======================================
 
 ::DNS-Update
-ipconfig /all > V:\Netc\%COMPUTERNAME%.txt
+ipconfig /all > V:\adminfreigabe\%COMPUTERNAME%.txt
 
 ::LISSI
   net use k: \\LISSI\dialyse_prog	/persistent:no
