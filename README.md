@@ -34,5 +34,6 @@ Samples:
 ------
 
 [WIKI Batch-Programmierung](https://de.wikibooks.org/wiki/Batch-Programmierung:_Beispiele)
+[Batch Befehle Windows](https://www.script-example.com/themen/cmd_Batch_Befehle.php)
 
 
