@@ -6,9 +6,9 @@ REM -===========================================================================
 REM -======== veuiller envoyez nous envoyez à la fin le resultat de ce test ====================-
 
 REM  -==============================================-
-REM  |                              		            |
+REM  |                                              |
 REM  |        ALL Internet Connexion Test           |
-REM  |                                		          |
+REM  |                                              |
 REM  -==============================================-
 
 REM ip-connection-test.cmd
