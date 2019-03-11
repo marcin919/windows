@@ -20,7 +20,7 @@ Command substitution: `FOR /F` (existed before, has been enhanced)
 Functions: `CALL :label`
 Order of Execution:
 
-If both `.bat` and `.cmd` versions of a script (`test.bat`, `test.cmd`) are in the same folder and you run the script without the extension (test), by default the `.bat` version of the script will run, even on 64-bit Windows 7. The order of execution is controlled by the PATHEXT environment variable. See Order in which <https://stackoverflow.com/questions/605101/order-in-which-command-prompt-executes-files-with-the-same-name-a-bat-vs-a-cmd-v> Command Prompt executes files for more details.
+If both `.bat` and `.cmd` versions of a script (`test.bat`, `test.cmd`) are in the same folder and you run the script without the extension (test), by default the `.bat` version of the script will run, even on 64-bit Windows 7. The order of execution is controlled by the PATHEXT environment variable. See Order in which <https://stackoverflow.com/questions/605101/order-in-which-command-prompt-executes-files-with-the-same-name-a-bat-vs-a-cmd-v> [Command Prompt executes files](https://stackoverflow.com/questions/605101/order-in-which-command-prompt-executes-files-with-the-same-name-a-bat-vs-a-cmd-v) for more details.
 
 References:
 
