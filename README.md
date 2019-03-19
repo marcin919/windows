@@ -47,4 +47,4 @@ Tools:
 
 Books:
 ------
-[Windoes cmd](http://index-of.co.uk/Microsoft-Windows-Ebooks/How%20To%20Cheat%20At%20Windows%20System%20Administration%20Using%20Command%20Line%20Scripts%20(2006).pdf)
+[Windows cmd](http://index-of.co.uk/Microsoft-Windows-Ebooks/How%20To%20Cheat%20At%20Windows%20System%20Administration%20Using%20Command%20Line%20Scripts%20(2006).pdf)
