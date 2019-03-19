@@ -44,3 +44,7 @@ The SEC505-Scripts.zip file contains some of the lab files for my SANS Institute
 Tools:
 ------
 [random IP](https://www.browserling.com/tools/random-ip)
+
+Books:
+------
+[Windoes cmd](http://index-of.co.uk/Microsoft-Windows-Ebooks/How%20To%20Cheat%20At%20Windows%20System%20Administration%20Using%20Command%20Line%20Scripts%20(2006).pdf)
