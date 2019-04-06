@@ -5,7 +5,7 @@ REM Ma. Szm.
 REM Version 1.3 
 REM 08.05.2016 Schreibfehler korigiert, Anpassungen.
 
-REM Backupvariablen
+REM Backupvariablen 
 REM Quelle -----------------------------
 set BACAKUPNAME=DATA
 set SOURCEDIR=D:\
@@ -43,8 +43,8 @@ echo.
 echo Logs
 echo ====
 echo.
-echo Start von dem Script, usw.: %LOGDIR%SigAccess.log
-echo Verzeichnis fuer Backuplog: %LOGDIR% 
+echo Start von dem Script wird gelogt unter: %LOGDIR%SigAccess.log
+echo Backuplog: %LOGDIR% 
 echo. 
 powershell -Command Write-Host "VORSICHT!" -foreground "Red"
 echo ===========
