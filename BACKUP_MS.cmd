@@ -2,8 +2,8 @@
 
 REM 20.07.2015
 REM Ma. Szm.
-REM Version 1.3 Schreibfehler korigiert.
-REM 08.05.2016 Anpassungen
+REM Version 1.3 
+REM 08.05.2016 Schreibfehler korigiert, Anpassungen.
 
 REM Backupvariablen
 REM Quelle -----------------------------
