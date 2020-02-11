@@ -1,7 +1,7 @@
 @echo off
 
 REM 01.03.2015
-REM MS
+REM marcin919
 
 REM Backupvariablen
 set BACAKUPNAME=Owncloud
