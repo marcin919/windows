@@ -1,4 +1,4 @@
-:: Ports fuer Programm EMCO installer welche geöffnet werden sollen, wenn das Windows Firewall eingeschaltet ist.
+:: Ports fuer Programm EMCO Installer welche im Windows Firewall geöffnet werden sollen, wenn es eingeschaltet ist.
 :: TCP
 Netsh Advfirewall Firewall add Rule Name = "EMCO Open Port 135" Dir = in action = allow protocol = TCP localport = 135
 Netsh Advfirewall Firewall add Rule Name = "EMCO Open Port 136" Dir = in action = allow protocol = TCP localport = 136
