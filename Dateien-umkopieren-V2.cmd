@@ -1,4 +1,4 @@
-REM Sicherungsscript. 
+REM Copy-Script. 
 REM Helperscript für umkopieren von Daten
 REM 01.07.2016
 
