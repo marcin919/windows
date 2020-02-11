@@ -6,7 +6,7 @@
 ipconfig /all > V:\adminfreigabe\%COMPUTERNAME%.txt
 
 ::LISSI
-net use k: \\LISSI\dialyse_prog   /persistent:no
+net use k: \\LISSI\freigabe_prog   /persistent:no
 
 ::Indication
 net use r: /DELETE
