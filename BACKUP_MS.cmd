@@ -1,9 +1,9 @@
 @echo off
 
 REM 20.07.2015
-REM Ma. Szm.
+REM marcin919
 REM Version 1.3 
-REM 08.05.2016 Schreibfehler korigiert, Anpassungen.
+REM 08.05.2016 Anpassungen.
 
 REM Backupvariablen 
 REM Quelle -----------------------------
@@ -20,8 +20,7 @@ set LOGDIR=R:\BACKUP\Logs\
 REM Festplatte erkennung ---------------
 set SIGNATUR-WD3TB="Elements C65D-C26D"
 
-REM Hilfsvariablen ---------------------
-REM PC für die Log Datei ---------------
+REM Hilfsvariablen für die Log Datei ---
 set PC=%COMPUTERNAME%
 set h=%time:~0,2%
 set m=%time:~3,2%
@@ -30,12 +29,10 @@ set ms=%time:~9,2%
 set CTIME=%ms%
 set DATE=%date%
 
-cls
-REM COLOR 0E
-COLOR 3F
+cls&&COLOR 3F
 echo.
 echo SICHERUNGSSCRIPT Version 1.3 
-echo Vollbackup von %SOURCEDIR% auf %COMPUTERNAME% in Vault: %BACAKUPNAME%  auf %TARGETDIR%%VAULT%
+echo Vollbackup von %SOURCEDIR% auf %COMPUTERNAME% in Vault: %BACAKUPNAME% auf %TARGETDIR%%VAULT%
 echo Du bist angemeldet als %USERNAME%
 echo. 
 echo [%DATE% @ %TIME%] %USERNAME% Script %BACAKUPNAME% gestartet. >>%LOGDIR%SigAccess.log
@@ -43,7 +40,7 @@ echo.
 echo Logs
 echo ====
 echo.
-echo Start von dem Script wird gelogt unter: %LOGDIR%SigAccess.log
+echo Laufzeit von dem Script wird protokoliert unter: %LOGDIR%SigAccess.log
 echo Backuplog: %LOGDIR% 
 echo. 
 powershell -Command Write-Host "VORSICHT!" -foreground "Red"
