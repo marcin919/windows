@@ -1,0 +1,51 @@
+<job>
+<script language="VBScript">
+Option Explicit
+On Error Resume Next
+Dim WshShell
+set WshShell=CreateObject("WScript.Shell")
+
+'Run as Administrator'
+If Not WScript.Arguments.Named.Exists("elevate") Then
+CreateObject("Shell.Application").ShellExecute WScript.FullName _
+, """" & WScript.ScriptFullName & """ /elevate", "", "runas", 1
+WScript.Quit
+End If
+
+'Run Command Prompt'
+WshShell.run "cmd.exe"
+WScript.Sleep 1000
+
+'Show current config'
+WshShell.SendKeys "netsh interface ipv4 show config name=Ethernet"
+WshShell.SendKeys ("{Enter}")
+WScript.Sleep 1000
+
+'Static IP'
+WshShell.SendKeys "netsh interface ipv4 set address name=Ethernet static ( 192.168.1.2 255.255.255.0 192.168.1.1 )"
+WshShell.SendKeys ("{Enter}")
+WScript.Sleep 1000
+
+'Preferred DNS server'
+WshShell.SendKeys "netsh interface ipv4 set dns name=Ethernet static 192.168.1.1"
+WshShell.SendKeys ("{Enter}")
+WScript.Sleep 1000
+
+'Alternate DNS server'
+WshShell.SendKeys "netsh interface ip add dns name=Ethernet 1.1.1.1 index=2"
+WshShell.SendKeys ("{Enter}")
+WScript.Sleep 1000
+
+'Show new2 config'
+WshShell.SendKeys "netsh interface ipv4 show config name=Ethernet"
+WshShell.SendKeys ("{Enter}")
+WScript.Sleep 10000
+
+'Exit '
+WshShell.SendKeys ("exit")
+WshShell.SendKeys ("{Enter}")
+
+
+WScript.Quit 
+</script>
+</job>
