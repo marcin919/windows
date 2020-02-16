@@ -4,10 +4,10 @@
 @echo off & setlocal ENABLEDELAYEDEXPANSION
 
 :: Quellordner
-set "quelle=D:\Foto\2018\Camera\Videos\VidTest"
+set "quelle=D:\TMP\115APPLE"
 
 :: Zielordner
-set "ziel=D:\Foto\2018\Camera\Videos\VidTestTarget"
+set "ziel=D:\TMP\SortResult"
 
 :: durchlaufe alle Dateien die älter als 30 Tage sind und gebe für die FOR-Schleife den Dateinamen und das Änderungsdatum getrennt mit einer Raute aus, für die Trennung in der Schleife
 for /f "tokens=1,2,4 delims=#/" %%a in ('forfiles /D -31 /p "%quelle%" /c "cmd /c echo @file#@fdate" 2^>nul') DO @(
