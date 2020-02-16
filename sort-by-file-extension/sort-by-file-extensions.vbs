@@ -1,4 +1,4 @@
-'Script to sort the data by file extension
+'Script to sort the files by file extension
 
 Option Explicit
 Dim fso, strSource, strTarget
@@ -6,7 +6,7 @@ Dim oFolder, oSubFolders, oFiles, item
 Dim strType, iPos
 
 
-strSource = "D:\Experiment\Source\3"
+strSource = "D:\Experiment\Source"
 strTarget = "D:\Experiment\Target"
 
 On Error Resume Next
