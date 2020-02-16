@@ -1,4 +1,4 @@
-:: Dateien aus dem Quellordner werden in Ziehordner in neu erstellte Verzeichnise 2019-01 verschoben. 
+:: Dateien aus dem Quellordner werden in Ziehordner in neu erstellte Verzeichnise im format (jjjj-mm-tt) verschoben. 
 :: 10.03.2019
 
 @echo off & setlocal ENABLEDELAYEDEXPANSION
