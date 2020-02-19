@@ -4,8 +4,11 @@ echon @off
 :: PC Einrichtung Windows Domäne
 :: Lokalen Administrator anlegen und in die lokale Administratoren Gruppe einfügen. Domänen-Admin in die lokale Administratoren Gruppe einfügen
 
+SET /p useradmin=Benutzername für Windows Benutzer mit Administrativen Rechten eingeben (z.B, ServiceAdm) :
+SET /p passwd=Password für Windows Benutzer mit Administrativen Rechten eingeben :
+
 ::  Lokalen Administrator User für Servicezweke anlegen. 
-net user ServiceAdmin PassABC123 /add /active:yes /comment:"Service Administrator" /expires:never /passwordchg:no /passwordreq:yes
+net user %useradmin% %passwd% /add /active:yes /comment:"Service Administrator" /expires:never /passwordchg:no /passwordreq:yes
 
 ::  und in die Administratoren Gruppe einfügen. 
 net localgroup "Administratoren" ServiceAdmin /add
