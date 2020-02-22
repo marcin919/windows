@@ -1,3 +1,5 @@
+:: Matrix gaga
+
 cd C:\Users\admin
 color a
 cd C:\Users\admin 
