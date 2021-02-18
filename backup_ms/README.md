@@ -7,21 +7,16 @@ C:\Windows\system32>help robocopy
 
 | Linke Überschrift | Rechte Überschrift |
 | ------------------ | ------------------ |
-| /E  | 	Kopiert Unterverzeichnisse, einschließlich leerer Unterverzeichnisse. |
-|  /XO | Schließt ältere Dateien aus. |
-| /LOG:Log.txt |  Schreibt einen Log in die Datei Log.txt |
-|  /NP | Kein Status - der Prozentsatz kopierter Elemente wird nicht angezeigt. Nötig, da sonst der Log ewig lang wird |
-| /R:n | Anzahl von Wiederholungsversuchen bei fehlerhaften Kopiervorgängen. Der Standardwert ist 1 Million. -> verhindert, dass 1 mio mal versucht wird eine Operation auszuführen, die nicht möglich ist ;)|
+| /E   | 	Kopiert Unterverzeichnisse, einschließlich leerer Unterverzeichnisse. |
+| /XO  | Schließt ältere Dateien aus. |
+| /LOG:Log.txt | Schreibt einen Log in die Datei Log.txt |
+| /NP  | Kein Status - der Prozentsatz kopierter Elemente wird nicht angezeigt. Nötig, da sonst der Log ewig lang wird |
+| /R:n | Anzahl von Wiederholungsversuchen bei fehlerhaften Kopiervorgängen. Der Standardwert ist 1 Million. In dem Fall n verhindert, dass 1 Mio mal versucht wird eine Operation auszuführen, die nicht möglich ist ;)|
+| /PURGE  | löscht die Verzeichnisse und Dateien die nicht mehr in der Source vorhanden sind. |
+| /XF .*  | was soll das heissen!, das kopiert nur die Verzeichnisse |
 
-
-
- 			:: 
- 
- 			:: 
            
- /PURGE 			:: löscht die Verzeichnisse und Dateien die nicht mehr in der Source vorhanden sind.
- 
- /XF .*     		:: was soll das heissen, das kopiert nur die verzeichnisse
+
  
  /L   			:: List only - don't copy, timestamp or delete any files.
  
