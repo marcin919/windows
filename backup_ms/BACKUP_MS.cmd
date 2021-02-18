@@ -6,10 +6,10 @@
 :: Changed: 08.05.2016
 
 :: Variables 
-set BACAKUPNAME=DATA  			:: Backup name
-set SOURCEDIR=D:\  			:: Source directory
-set TARGETDIR=R:\BACKUP\  		:: Target directory
-set VAULT=Backups\%BACAKUPNAME%		:: Backu vault
+set BACAKUPNAME=DATA  			& :: Backup name
+set SOURCEDIR=D:\  			& :: Source directory
+set TARGETDIR=R:\BACKUP\  		& :: Target directory
+set VAULT=Backups\%BACAKUPNAME%		& :: Backup vault
 
 REM Log --------------------------------
 set LOGDIR=R:\BACKUP\Logs\
