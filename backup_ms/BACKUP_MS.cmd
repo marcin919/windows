@@ -1,9 +1,10 @@
 @echo off
 
 :: Created by: marcin919
-:: Version: Version 1.3
+:: Name: RoboBackup 
+:: Version: Version 2.0
 :: Created: 20.07.2015
-:: Changed: 08.05.2016
+:: Changed: 18.02.2021
 
 :: Variables 
 set BACAKUPNAME=DATA  			& :: Backup name
@@ -24,7 +25,7 @@ set DATE=%date%
 
 cls&&COLOR 3F
 echo.
-echo SICHERUNGSSCRIPT Version 1.3 
+echo -=RoboBackup=- Version 2.0 
 echo Vollbackup von %SOURCEDIR% auf %COMPUTERNAME% in Vault: %BACAKUPNAME% auf %TARGETDIR%%VAULT%
 echo Du bist angemeldet als %USERNAME%
 echo. 
