@@ -1,15 +1,15 @@
 @ECHO
-REM ----------Ce test prendra quelques secondes, veuillez patienter S.V.P-----------------------
-REM ============================================================
-REM=============================================================
+REM =========== Ce test prendra quelques secondes, veuillez patienter S.V.P
+REM ===========
+REM ===========
 
-REM =========veuiller envoyez nous envoyez à la fin le resultat de ce test =============-
+REM =========== veuiller envoyez nous envoyez à la fin le resultat de ce test
 
-REM  ===============================================
-REM  |                              		    |
-REM  |        ALL Internet Connexion Test           |
-REM  |                                		    |
-REM  ===============================================
+REM =========== 
+REM  |                              		    
+REM  |        ALL Internet Connexion Test
+REM  |                                	
+REM =========== 
 
 
 
