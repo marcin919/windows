@@ -1,4 +1,4 @@
-echon @off
+echo @off
 
 :: DE Windows
 :: PC Einrichtung Windows Domäne
@@ -14,6 +14,6 @@ net user %useradmin% %passwd% /add /active:yes /comment:"Service Administrator" 
 net localgroup "Administratoren" ServiceAdmin /add
 
 ::  Netzwerkadministratoren in die Lokale Administratoren-Gruppe einfügen.
-net localgroup "Administratoren" administrator "DOMNETZ\administrator" /ADD 
+net localgroup "Administratoren" administrator "%USERDOMAIN%\administrator" /ADD 
 
 pause
