@@ -1,18 +1,15 @@
 @echo off
 
-REM 20.07.2015
-REM marcin919
-REM Version 1.3 
-REM 08.05.2016 Anpassungen.
+:: Created by: marcin919
+:: Version: Version 1.3
+:: Created: 20.07.2015
+:: Changed: 08.05.2016
 
-REM Backupvariablen 
-REM Quelle -----------------------------
-set BACAKUPNAME=DATA
-set SOURCEDIR=D:\
-
-REM Ziel-Verzeichis --------------------
-set TARGETDIR=R:\BACKUP\
-set VAULT=Backups\%BACAKUPNAME%
+:: Variables 
+set BACAKUPNAME=DATA  			:: Backup name
+set SOURCEDIR=D:\  			:: Source directory
+set TARGETDIR=R:\BACKUP\  		:: Target directory
+set VAULT=Backups\%BACAKUPNAME%		:: Backu vault
 
 REM Log --------------------------------
 set LOGDIR=R:\BACKUP\Logs\
