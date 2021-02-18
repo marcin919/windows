@@ -1,4 +1,8 @@
-rem robocopy hilfe
+Robocopy Hilfe 
+
+C:\Windows\system32>help robocopy
+
+
 rem ==============
 rem /E 				:: Kopiert Unterverzeichnisse, einschließlich leerer Unterverzeichnisse.
 rem /XO 			:: Schließt ältere Dateien aus.
