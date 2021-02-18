@@ -4,12 +4,14 @@ für alle Parameter Start-> Ausführen-> cmd-> help robocopy-> enter
 
 C:\Windows\system32>help robocopy
 
- /E 				Kopiert Unterverzeichnisse, einschließlich leerer Unterverzeichnisse.
- 
- /XO 			:: Schließt ältere Dateien aus.
- 
- /LOG:Log.txt 	:: Schreibt einen Log in die Datei Log.txt
- 
+
+| Linke Überschrift | Rechte Überschrift |
+| ------------------ | ------------------ |
+| /E  | 	Kopiert Unterverzeichnisse, einschließlich leerer Unterverzeichnisse. |
+|  /XO | Schließt ältere Dateien aus. |
+| /LOG:Log.txt |  Schreibt einen Log in die Datei Log.txt |
+
+
  /NP 			:: Kein Status - der Prozentsatz kopierter Elemente wird nicht angezeigt. Nötig, da sonst der Log ewig lang wird
  
  /R:n 			:: Anzahl von Wiederholungsversuchen bei fehlerhaften Kopiervorgängen. Der Standardwert ist 1 Million. ->
