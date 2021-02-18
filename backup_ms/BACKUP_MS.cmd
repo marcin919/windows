@@ -11,11 +11,9 @@ set BACAKUPNAME=DATA  			& :: Backup name
 set SOURCEDIR=D:\  			& :: Source directory
 set TARGETDIR=R:\BACKUP\  		& :: Target directory
 set VAULT=Backups\%BACAKUPNAME%		& :: Backup vault
-set LOGDIR=R:\BACKUP\Logs\   			& :: Path for log files
-set SIGNATUR-WD3TB="Elements C65D-C26D" 	& :: Hard drive detection with signature
-
-REM Hilfsvariablen für die Log Datei ---
-set PC=%COMPUTERNAME%
+set LOGDIR=R:\BACKUP\Logs\   		& :: Path for log files
+set SIGNATUR-WD3TB="WD-C65D-C26D" 	& :: Hard drive detection with signature
+set PC=%COMPUTERNAME% 			& :: Auxiliary variables for the log file 
 set h=%time:~0,2%
 set m=%time:~3,2%
 set s=%time:~6,2%
