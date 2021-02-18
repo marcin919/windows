@@ -10,12 +10,8 @@ set BACAKUPNAME=DATA  			& :: Backup name
 set SOURCEDIR=D:\  			& :: Source directory
 set TARGETDIR=R:\BACKUP\  		& :: Target directory
 set VAULT=Backups\%BACAKUPNAME%		& :: Backup vault
-
-REM Log --------------------------------
-set LOGDIR=R:\BACKUP\Logs\
-
-REM Festplatte erkennung ---------------
-set SIGNATUR-WD3TB="Elements C65D-C26D"
+set LOGDIR=R:\BACKUP\Logs\   			& :: Path for log files
+set SIGNATUR-WD3TB="Elements C65D-C26D" 	& :: Hard drive detection with signature
 
 REM Hilfsvariablen für die Log Datei ---
 set PC=%COMPUTERNAME%
