@@ -9,9 +9,9 @@
 :: Variables 
 set BACAKUPNAME=DATA  			& :: Backup name
 set SOURCEDIR=D:\  			& :: Source directory
-set TARGETDIR=R:\BACKUP\  		& :: Target directory
+set TARGETDIR=G:\BACKUP\  		& :: Target directory
 set VAULT=Backups\%BACAKUPNAME%		& :: Backup vault
-set LOGDIR=R:\BACKUP\Logs\   		& :: Path for log files
+set LOGDIR=G:\BACKUP\Logs\   		& :: Path for log files
 set SIGNATUR-WD3TB="WD-C65D-C26D" 	& :: Hard drive detection with signature
 set PC=%COMPUTERNAME% 			& :: Auxiliary variables for the log file 
 set h=%time:~0,2%
@@ -101,7 +101,7 @@ echo -----------------------------
 echo.
 echo. 
 echo [%DATE% @ %TIME%] %USERNAME% Kopiervorgang %BACAKUPNAME% beginnt. >>%LOGDIR%SigAccess.log
-R:\BACKUP\Scripte\robocopy.exe %SOURCEDIR% %TARGETDIR%%VAULT%  /E /XO /LOG:%LOGDIR%%BACAKUPNAME%-%DATE%-%CTIME%.log /V /NP /R:5 /PURGE /XD .recycle .TemporaryItems .dropbox.cache $RECYCLE.BIN "System Volume Information"
+G:\BACKUP\Scripte\robocopy.exe %SOURCEDIR% %TARGETDIR%%VAULT%  /E /XO /LOG:%LOGDIR%%BACAKUPNAME%-%DATE%-%CTIME%.log /V /NP /R:5 /PURGE /XD .recycle .TemporaryItems .dropbox.cache $RECYCLE.BIN "System Volume Information"
 echo [%DATE% @ %TIME%] %USERNAME% Kopiervorgang %BACAKUPNAME% beendet. >>%LOGDIR%SigAccess.log
 echo. Backup beendet. Have a nice Day!
 GOTO EOF
@@ -113,12 +113,12 @@ rem robocopy hilfe
 rem ==============
 rem /E 				:: Kopiert Unterverzeichnisse, einschließlich leerer Unterverzeichnisse.
 rem /XO 			:: Schließt ältere Dateien aus.
-rem /LOG:Log.txt 	:: Schreibt einen Log in die Datei Log.txt
+rem /LOG:Log.txt 		:: Schreibt einen Log in die Datei Log.txt
 rem /NP 			:: Kein Status - der Prozentsatz kopierter Elemente wird nicht angezeigt. Nötig, da sonst der Log ewig lang wird
 rem /R:n 			:: Anzahl von Wiederholungsversuchen bei fehlerhaften Kopiervorgängen. Der Standardwert ist 1 Million. ->
 rem 			   	   verhindert, dass 1 mio mal versucht wird eine Operation auszuführen, die nicht möglich ist ;)
 rem /PURGE 			:: löscht die Verzeichnisse und Dateien die nicht mehr in der Source vorhanden sind.
-rem /XF .*     		:: was soll das heissen, das kopiert nur die verzeichnisse
+rem /XF .*     			:: was soll das heissen, das kopiert nur die verzeichnisse
 rem /L   			:: List only - don't copy, timestamp or delete any files.
 rem /X   			:: report all eXtra files, not just those selected.
 rem /V   			:: produce Verbose output, showing skipped files.
@@ -132,10 +132,9 @@ rem /NP  			:: No Progress - don't display % copied.
 rem /ETA 			:: show Estimated Time of Arrival of copied files. Wie lange hat der Kopiervorgang gedauert.
 rem /NJH 			:: No Job Header.
 rem /NJS 			:: No Job Summary.
-rem /LOG:file  		:: output status to LOG file (overwrite existing log).
-rem /LOG+:file 		:: output status to LOG file (append to existing log).
+rem /LOG:file  			:: output status to LOG file (overwrite existing log).
+rem /LOG+:file 			:: output status to LOG file (append to existing log).
 rem /TEE 			:: output to console window, as well as the log file.
-rem 				   für weitere Parameter Start->Ausführen->cmd->help robocopy->enter
 
 :EOF
 PAUSE
