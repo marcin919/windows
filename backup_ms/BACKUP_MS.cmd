@@ -56,7 +56,7 @@ echo Wurde Script auf dem richtigen PC gestartet?
 echo.
 echo Diser Script wurde fuer %PC% erstellt.
 echo Der Script wurde auf anderen PC gestartet.
-IF "%COMPUTERNAME%" == "DESKTOP-G4BUF9T" GOTO PCNAME-OK
+IF "%COMPUTERNAME%" == "SCORPII" GOTO PCNAME-OK
 REM If-Ausdruck ist falsch
   echo Diser Script ist fuer anderen PC bestimt. Have a nice Day!
   GOTO EOF
